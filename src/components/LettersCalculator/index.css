@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c 0%, #93f9b9 107%);
+  height: 100vh;
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.letters {
+  color: white;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.para {
+  align-self: center;
+  color: #219a6f;
+  background-color: white;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 32px;
+  padding: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+
+.image {
+  width: 100px;
+  background-size: cover;
+  order: 0;
+}
+
